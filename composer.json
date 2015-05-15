@@ -1,0 +1,20 @@
+{
+	"name": "kheaactua/configurator",
+	"description": "Simple container class for config options.",
+	"keywords": ["php", "config", "configurator"],
+	"authors": [
+		{
+			"name": "Matthew Russell",
+			"email": "matthew.g.russell@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3",
+		"monolog/monolog": "1.9.*"
+	},
+	"autoload": {
+		"psr-4" : {
+			"Configurator\\" : "src/"
+		}
+	}
+}
