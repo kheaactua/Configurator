@@ -1,6 +1,8 @@
 {
 	"name": "kheaactua/configurator",
 	"description": "Simple container class for config options.",
+	"license": "MIT",
+	"version": "0.2.0",
 	"keywords": ["php", "config", "configurator"],
 	"authors": [
 		{
@@ -14,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4" : {
-			"Configurator\\" : "src/"
+			"Configurator\\" : "src"
 		}
 	}
 }
